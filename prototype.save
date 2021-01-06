@@ -1,0 +1,74 @@
+main application :
+	css {
+		flex: 1
+	}
+
+	appmenu: {
+		search {
+			padding horizontal: 17
+			flex direction: row
+			padding top: 15
+
+			search input {
+				position: relative
+				border width: 1
+				border color: #E8E8E8
+				height: 45
+				border radius: 25
+				font size: 13
+				placeholder: What do you want to eat?
+				padding left: 35
+				padding right: 20
+				mergin right: 15	
+			}
+			search icon {
+				position: absolute
+				height: 26
+				width: 26
+				top: 5
+				left: 12
+			}
+		}
+	}
+	
+	gopay fitur {
+
+		margin top: 8
+		padding horizontal: 
+
+		gopay header {
+			border top left, right: 4
+			background: #2C5F88
+			font size: 17
+			font weight: bold
+			color: white
+		}
+		gopay body {
+			
+		}
+	}
+
+button navigation
+	component {
+		Home
+		Orders
+		Help
+		Inbox
+		Account
+	}
+
+	css {
+		height: 54
+		flex direction: row
+	}
+	child {
+		flex: 1
+		justify content: center
+		align items: center
+	}
+	icon {
+		height: 26
+		height: 26
+		color: #545454
+	}	
+

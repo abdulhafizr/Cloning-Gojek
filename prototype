@@ -1,13 +1,16 @@
-main application :
-	css {
-		flex: 1
-	}
+main application {
 
-	appmenu: {
+	flex: 1
+	padding horizontal: 17
+	padding top: 15
+
+	appmenu: 
+		-> Input Search
+		-> Notifikasi Icon
+	{
 		search {
-			padding horizontal: 17
+
 			flex direction: row
-			padding top: 15
 
 			search input {
 				position: relative
@@ -17,9 +20,9 @@ main application :
 				border radius: 25
 				font size: 13
 				placeholder: What do you want to eat?
-				padding left: 45
+				padding left: 35
 				padding right: 20
-				mergin right: 18	
+				mergin right: 15	
 			}
 			search icon {
 				position: absolute
@@ -29,9 +32,80 @@ main application :
 				left: 12
 			}
 		}
+		
 	}
 
-button navigation
+	gopay fitur 
+		-> Gopay Header
+		-> Gopay Body
+	{
+		
+		margin top: 8
+
+		gopay header 
+			-> Logo Gopay
+			-> Jumlah Saldo			
+		{
+			flex direction: row
+			justify content: space-between
+			background: #545454
+			padding: 14
+			border radius top {left, right}: 4
+			color: white
+			font size: 17
+			font weight: bold
+		}
+		
+		gopay body
+			-> Pay
+			-> NearBy
+			-> Top Up
+			-> More
+		{
+			flex direction: row
+			padding top: 20
+			padding bottom: 14
+			background: #2F65BD
+			border radius bottom {left, right}: 4
+			
+			child {
+				flex: 1
+				alignItems: center
+				width: 50
+				height: 50
+
+				Text {
+					margin top: 15
+					font size: 13
+					font weight: bold
+					color: white
+				}
+			}			
+	
+		}
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button navigation {
 	component {
 		Home
 		Orders
@@ -54,4 +128,4 @@ button navigation
 		height: 26
 		color: #545454
 	}	
-
+}
