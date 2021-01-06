@@ -1,0 +1,24 @@
+main application :
+	css {
+		flex: 1
+	}
+
+button navigation
+	component {
+		Home
+		Orders
+		Help
+		Inbox
+		Account
+	}
+
+	css {
+		height: 54
+		flex direction: row
+	}
+	child {
+		flex: 1
+		justify content: center
+		align items: center
+	}
+	
