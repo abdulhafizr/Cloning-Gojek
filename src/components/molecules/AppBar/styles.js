@@ -13,7 +13,8 @@ export default styles = StyleSheet.create({
 		borderWidth: 1,
 		borderColor: '#E8E8E8',
 		height: 45,
-		paddingLeft: 35	
+		paddingLeft: 35,
+		paddingRight: 10
 	},
 	searchIcon: {
 		color: '#959ea5',
