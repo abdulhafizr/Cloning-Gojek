@@ -1,35 +1,32 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 import styles from './styles';
+// icons
+import HomeIcon from '../../../assets/Icons/home.svg';
+import ShoppingBagIcon from '../../../assets/Icons/shopping-bag.svg';
+import HelpIcon from '../../../assets/Icons/help-circle.svg';
+import Inbox from '../../../assets/Icons/message-square.svg';
+import Account from '../../../assets/Icons/user.svg';
+
 
 export default ButtonNavigation = () => {
 	return (
 		<View style={styles.buttonNavigationWrapper}>
 	        <View style={styles.buttonNavigation}>
 	          <View style={styles.iconButtonNavigation}>
-	            <Text>
-	              Home
-	            </Text>
+	            <HomeIcon style={styles.icons} />
 	          </View>
 	          <View style={styles.iconButtonNavigation}>
-	            <Text>
-	              Orders
-	            </Text>
+	            <ShoppingBagIcon style={styles.icons} />
 	          </View>
 	          <View style={styles.iconButtonNavigation}>
-	            <Text>
-	              Help
-	            </Text>
+	            <HelpIcon style={styles.icons} />
 	          </View>
 	          <View style={styles.iconButtonNavigation}>
-	            <Text>
-	              Inbox
-	            </Text>
+	            <Inbox style={styles.icons} />
 	          </View>
 	          <View style={styles.iconButtonNavigation}>
-	            <Text>
-	              Account
-	            </Text>
+	            <Account style={styles.icons} />
 	          </View>
 	        </View>
 	     </View>
