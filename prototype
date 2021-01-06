@@ -3,6 +3,34 @@ main application :
 		flex: 1
 	}
 
+	appmenu: {
+		search {
+			padding horizontal: 17
+			flex direction: row
+			padding top: 15
+
+			search input {
+				position: relative
+				border width: 1
+				border color: #E8E8E8
+				height: 45
+				border radius: 25
+				font size: 13
+				placeholder: What do you want to eat?
+				padding left: 45
+				padding right: 20
+				mergin right: 18	
+			}
+			search icon {
+				position: absolute
+				height: 26
+				width: 26
+				top: 5
+				left: 12
+			}
+		}
+	}
+
 button navigation
 	component {
 		Home
@@ -26,3 +54,4 @@ button navigation
 		height: 26
 		color: #545454
 	}	
+

@@ -1,4 +1,5 @@
 import ButtonNavigation from './ButtonNavigation';
 import MainApp from './MainApp';
+import AppBar from './AppBar';
 
-export { ButtonNavigation, MainApp };
+export { AppBar, ButtonNavigation, MainApp };
