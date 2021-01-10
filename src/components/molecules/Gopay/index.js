@@ -1,11 +1,6 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-// icons
-import PayIcon from '../../../assets/Icons/dollar-sign.svg';
-import NearByIcon from '../../../assets/Icons/credit-card.svg';
-import TopUpIcon from '../../../assets/Icons/plus-square.svg';
-import MoreIcon from '../../../assets/Icons/more-horizontal.svg';
-
+import Icon from 'react-native-vector-icons/Feather';
 import styles from './styles';
 
 export default Gopay = () => {
@@ -17,19 +12,19 @@ export default Gopay = () => {
 			</View>
 			<View style={styles.gopayBody}>
 				<View style={styles.fiturBody}>
-					<PayIcon style={styles.iconFiturBody} />
+					<Icon name="dollar-sign" style={styles.iconFiturBody} />
 					<Text style={styles.textFiturBody}>Pay</Text>
 				</View>
 				<View style={styles.fiturBody}>
-					<NearByIcon style={styles.iconFiturBody} />
+					<Icon name="credit-card" style={styles.iconFiturBody} />
 					<Text style={styles.textFiturBody}>NearBy</Text>
 				</View>
 				<View style={styles.fiturBody}>
-					<TopUpIcon style={styles.iconFiturBody} />
+					<Icon name="plus-square" style={styles.iconFiturBody} />
 					<Text style={styles.textFiturBody}>Top Up</Text>
 				</View>
 				<View style={styles.fiturBody}>
-					<MoreIcon style={styles.iconFiturBody} />
+					<Icon name="more-horizontal" style={styles.iconFiturBody} />
 					<Text style={styles.textFiturBody}>More</Text>
 				</View>
 			</View>

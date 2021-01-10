@@ -31,8 +31,7 @@ export default styles = StyleSheet.create({
 	},
 	iconFiturBody: {
 		color: '#fff',
-		width: 100,
-		height: 100
+		fontSize: 28
 	},
 	textFiturBody: {
 		color: '#fff',
