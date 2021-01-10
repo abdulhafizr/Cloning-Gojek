@@ -12,10 +12,7 @@ export default styles = StyleSheet.create({
   iconButtonNavigation: {
     flex: 1,
     alignItems: 'center',
+    justifyContent: 'center'
   },
-  icons: {
-    height: 26,
-    width: 26,
-    color: '#545454'
-  }
+  icons: {color: '#545454', fontSize: 26}
 })
