@@ -4,6 +4,6 @@ export default styles = StyleSheet.create({
   mainApp: {
     flex: 1,
     paddingTop: 15,
-    paddingHorizontal: 17
+    backgroundColor: '#eee'
   },
 });

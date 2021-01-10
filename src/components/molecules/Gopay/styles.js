@@ -2,7 +2,8 @@ import { StyleSheet } from 'react-native';
 
 export default styles = StyleSheet.create({
 	gopayWrapper: {
-		marginTop: 8
+		marginTop: 8,
+		marginHorizontal: 16
 	},
 	gopayHeader: {
 		flexDirection: 'row',

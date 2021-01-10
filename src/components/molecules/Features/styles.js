@@ -8,7 +8,8 @@ export default styles = StyleSheet.create({
 		flexWrap: 'wrap',
 		borderRadius: 4,
 		overflow: 'hidden',
-		paddingVertical: 10
+		paddingVertical: 10,
+		marginHorizontal: 16
 	},
 	iconsWrapperTop: {
 		width: '100%',

@@ -2,7 +2,8 @@ import { StyleSheet } from 'react-native';
 
 export default styles = StyleSheet.create({
 	appBar: {
-		flexDirection: 'row'
+		flexDirection: 'row',
+		marginHorizontal: 8
 	},
 	searchWrapper: {
 		position: 'relative',
@@ -20,7 +21,7 @@ export default styles = StyleSheet.create({
 		color: '#888',
 		fontSize: 24,
 		position: 'absolute',
-		top: 10,
+		top: 9,
 		left: 6
 	},
 	noticeWrapper: {
