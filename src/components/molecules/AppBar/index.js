@@ -1,7 +1,6 @@
 import React from 'react';
 import { View, Text, TextInput } from 'react-native';
-import SearchIcon from '../../../assets/Icons/search.svg';
-import NoticeIcon from '../../../assets/Icons/bell.svg';
+import Icon from 'react-native-vector-icons/Feather';
 import styles from './styles';
 
 export default AppBar = () => {
@@ -12,10 +11,10 @@ export default AppBar = () => {
 					placeholder="What do you want to eat?" 
 					style={styles.searchInput}
 				/>
-				<SearchIcon style={styles.searchIcon} />
+				<Icon name="search" style={styles.searchIcon} />
 			</View>
 			<View style={styles.noticeWrapper}>
-				<NoticeIcon style={styles.noticeIcon} />
+				<Icon name="bell" style={styles.noticeIcon} />
 			</View>
 		</View>
 	)

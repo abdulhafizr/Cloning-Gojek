@@ -11,15 +11,14 @@ export default styles = StyleSheet.create({
 	},
 	searchInput: {
 		borderWidth: 1,
-		borderColor: '#E8E8E8',
-		height: 45,
+		borderColor: '#ccc',
+		height: 42,
 		paddingLeft: 35,
 		paddingRight: 10
 	},
 	searchIcon: {
-		color: '#959ea5',
-		width: 28,
-		height: 28,
+		color: '#888',
+		fontSize: 24,
 		position: 'absolute',
 		top: 10,
 		left: 6
@@ -31,8 +30,7 @@ export default styles = StyleSheet.create({
 		justifyContent: 'center'
 	},
 	noticeIcon: {
-		width: 28,
-		height: 28,
-		color: '#959ea5',
+		fontSize: 24,
+		color: '#888',
 	}
 })
