@@ -8,7 +8,7 @@ export default Gopay = () => {
 		<View style={styles.gopayWrapper}>
 			<View style={styles.gopayHeader}>
 				<Text style={styles.gopayHeaderText}>AHR</Text>
-				<Text style={styles.gopayHeaderText}>Rp.500.0000</Text>
+				<Text style={styles.gopayHeaderText}>Rp.500.000</Text>
 			</View>
 			<View style={styles.gopayBody}>
 				<View style={styles.fiturBody}>
