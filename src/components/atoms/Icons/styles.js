@@ -6,7 +6,7 @@ export default styles = StyleSheet.create({
 		alignItems: 'center'
 	},
 	icon: {
-		fontSize: 30,
+		fontSize: 28,
 		color: '#fff'
 	},
 	caption: {
