@@ -87,7 +87,7 @@ Main Application {
 	}
 	
 	News Fitures {
-		margin top: 10/8
+		margin top: 8
 		padding vertical: 16
 		
 		News Wrapper {
