@@ -1,3 +1,4 @@
 import Icons from './Icons';
+import News from './News';
 
-export { Icons };
+export { Icons, News };
