@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import { News } from '../../atoms';
+import { News, Foods } from '../../atoms';
 import styles from './styles';
 
 const newsFromAPI = [
@@ -28,6 +28,7 @@ const newsFromAPI = [
 export default GoNews = () => {
 	return (
 		<View style={styles.goNews}>
+			
 			{
 				newsFromAPI.map((news) => (
 					<News 
@@ -38,6 +39,9 @@ export default GoNews = () => {
 					/>
 				))
 			}
+
+			<Foods />
+
 		</View>
 	)
 }

@@ -5,7 +5,7 @@ import styles from './styles';
 export default Foods = () => {
 	return (
 		<View>
-			<Text></Text>
+			<Text>Go-Foods</Text>
 		</View>
 	)
 }
