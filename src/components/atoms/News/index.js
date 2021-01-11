@@ -4,7 +4,7 @@ import styles from './styles';
 
 export default News = ({title, category, image}) => {
 	return (
-		<TouchableWithoutFeedback onPress={() => alert('Clicked')}>
+		<TouchableWithoutFeedback onPress={() => alert(title)}>
 			<View style={styles.news}>
 				<View style={styles.newsImageWrapper}>
 					<Image 
