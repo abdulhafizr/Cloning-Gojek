@@ -48,5 +48,8 @@ export default styles = StyleSheet.create({
 		width: '100%',
 		backgroundColor: 'rgba(225, 225, 225, .2)',
 		borderRadius: 4
+	},
+	goFoods: {
+		flexDirection: 'row'
 	}
 })

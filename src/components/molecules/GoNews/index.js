@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, ScrollView } from 'react-native';
 import { News, Foods } from '../../atoms';
 import styles from './styles';
 
@@ -39,8 +39,6 @@ export default GoNews = () => {
 					/>
 				))
 			}
-
-			<Foods />
 
 		</View>
 	)
