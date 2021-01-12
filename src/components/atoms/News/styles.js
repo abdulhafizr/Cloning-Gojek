@@ -5,7 +5,8 @@ export default styles = StyleSheet.create({
 		marginBottom: 8,
 		borderBottomWidth: 1,
 		borderBottomColor: '#aaa',
-		paddingVertical: 6
+		paddingVertical: 6,
+		width: '100%'
 	},
 	newsImageWrapper: {
 		position: 'relative',

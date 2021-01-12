@@ -2,50 +2,44 @@ import { StyleSheet } from 'react-native';
 
 export default styles = StyleSheet.create({
 	foods: {
-		marginBottom: 8,
-		borderBottomWidth: 1,
-		borderBottomColor: '#aaa',
 		paddingVertical: 6,
-		width: '100%'
 	},
 	imageWrapper: {
-		position: 'relative'
+		position: 'relative',
+		marginHorizontal: 2,
+		width: 300
 	},
 	foodsImage: {
 		height: 170,
-		width: '100%',
+		width: 300,
 		borderRadius: 4
+	},
+	caption: {
+		position: 'absolute',
+		bottom: 4,
+		left: 4,
+		paddingRight: 6
+	},
+	textHead: {
+		color: '#333',
+		fontSize: 16
+	},
+	textBody: {
+		color: '#333',
+		fontSize: 13
 	},
 	overlay: {
 		position: 'absolute',
 		top: 0,
+		right: 0,
+		bottom: 0,
 		left: 0,
-		width: '100%',
-		backgroundColor: 'rgba(0, 0, 0, .15)',
-		height: 170
+		backgroundColor: 'rgba(255, 255, 255, .2)'
 	},
-	goFoodCategory: {
+	logoGoFoodCategory: {
+		height: 30,
+		width: 50,
 		position: 'absolute',
-		height: 40,
-		width: 60,
-		top: -3,
-		right: 8,
-		resizeMode: 'cover'
-	},
-	textWrapper: {
-		position: 'absolute',
-		bottom: 14,
-		left: 11,
-		width: '100%',
-		paddingRight: 11
-	},
-	textHead: {
-		color: '#fff',
-		fontSize: 15,
-		fontWeight: 'bold'
-	},
-	textChild: {
-		fontSize: 12,
-		color: '#fff'
+		alignSelf: 'flex-end',
 	}
 })
